@@ -40,6 +40,8 @@ data
 - config/
   - config.yaml
 - src/
+  - download_data.sh
+  - coverage.sh
 - logs/
 
 ## Dataset for Tests
@@ -58,7 +60,7 @@ MD5 hashes for integrity check:
 - bed: c3a7cea67f992e0412db4b596730d276
 
 ## TODO
-- [x] [script] download data
+- [x] download data
   - [x] bam
   - [x] cram
   - [x] ref
