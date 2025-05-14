@@ -37,6 +37,8 @@ data
   - sex_estimation/
   - contamination/
   - reports/
+- config/
+  - config.yaml
 - src/
 - logs/
 
@@ -56,10 +58,10 @@ MD5 hashes for integrity check:
 - bed: c3a7cea67f992e0412db4b596730d276
 
 ## TODO
-- [ ] [script] download data
-  - [ ] bam
-  - [ ] cram
-  - [ ] ref
+- [x] [script] download data
+  - [x] bam
+  - [x] cram
+  - [x] ref
 - [ ] Coverage
 - [ ] Sex estimation
 - [ ] Contamination
